@@ -1,7 +1,7 @@
 let startTime = 0;
  let running = false;
 
- function startStop() {
+ function start() {
      if (!running) {
          running = true;
          increment();
@@ -9,6 +9,17 @@ let startTime = 0;
          running = false;
      }
  }
+
+ function Stop() {
+    if (!running) {
+        running = true;
+        increment();
+   } else {
+        running = false;
+    }
+}
+
+ 
 
 function reset() {
     running = false;
